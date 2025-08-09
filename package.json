@@ -1,0 +1,16 @@
+{
+  "name": "roblox-obfuscator",
+  "version": "1.0.0",
+  "main": "src/obfuscator.js",
+  "bin": {
+    "roblox-obfuscate": "./bin/cli.js"
+  },
+  "scripts": {
+    "test": "node test/test.js",
+    "start": "node bin/cli.js"
+  },
+  "keywords": ["roblox", "obfuscator", "lua", "luau", "code-protection"],
+  "author": "",
+  "license": "MIT",
+  "description": "A Roblox code obfuscator that protects Lua/Luau scripts"
+}
